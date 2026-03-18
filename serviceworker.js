@@ -19,10 +19,8 @@ self.addEventListener('install',event=>{
         .then(cache=>{
             return cache.addAll([
                 '/week4_web_test_manifest2/',
-                '/week4_web_test_manifest2/index.html',
-                '/week4_web_test_manifest2/css/style.css',
-                '/week4_web_test_manifest2/img/no-image.png',
-                '/week4_web_test_manifest2/una144x144.png'
+                '/week4_web_test_manifest2/index.html'
+                
                 
                 /*Agregar imagenes*/
             ])
