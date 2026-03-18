@@ -18,6 +18,7 @@ self.addEventListener('install',event=>{
     const cacheStatic= caches.open(CACHE_STATIC_NAME)
         .then(cache=>{
             return cache.addAll([
+                '/week4_web_test_manifest2/'
                 
                 /*Agregar imagenes*/
             ])
