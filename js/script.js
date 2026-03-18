@@ -1,5 +1,5 @@
 if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('/serviceworker.js')
+    navigator.serviceWorker.register('week4_web_test_manifest2/serviceworker.js')
     .then( reg=>{
         console.log('Service Worker se ha instalado correctamente. Scope:',reg.scope)
     })
